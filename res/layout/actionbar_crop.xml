@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="Crop"
+        android:layout_width="wrap_content"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEffects"
+        android:textSize="20dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Apply"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnapply"
+
+        android:textSize="10dp"
+        android:layout_alignBaseline="@+id/btnEffects"
+        android:layout_alignBottom="@+id/btnEffects"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:background="@null"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+
+        android:layout_alignBaseline="@+id/btnEffects"
+        android:layout_alignBottom="@+id/btnEffects"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

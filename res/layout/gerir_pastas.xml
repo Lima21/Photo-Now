@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <EditText
+            android:id="@+id/editNovaPasta"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textColorHint="#D3D3D3"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="Folder Name" />
+
+        <Button
+            android:id="@+id/btnNovaPasta"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+            android:text="Create" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinGerir"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+
+        <EditText
+            android:id="@+id/editAltera"
+            android:layout_width="150dp"
+            android:layout_height="41dp"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:hint="Folder Name"
+            android:textColor="#000000"
+            android:layout_weight="2"
+            android:textColorHint="#D3D3D3"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAlterar"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="Change Name"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+          />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Delete"
+        />
+</LinearLayout>
